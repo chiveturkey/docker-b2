@@ -29,5 +29,6 @@ b2 authorize-account myApplicationKeyID
 
 ```
 b2 ls myBucket
-b2 upload-file myBucket test test
+cd /path/to/test/file
+b2 upload-file myBucket testfile testfile
 ```
