@@ -7,3 +7,5 @@ RUN yum install epel-release -y \
 
 # Install b2.
 RUN pip3 install --upgrade b2
+
+WORKDIR /app
